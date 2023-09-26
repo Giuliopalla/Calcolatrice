@@ -16,4 +16,12 @@ public class Calcolatrice {
     public int moltiplicazione(int x,int y){
         return x*y;
     }
+
+    public int sottrazione (int x, int y){
+        return x-y;
+    }
+
+    public double divisione(int x, int y){
+        return x/y;
+    }
 }
