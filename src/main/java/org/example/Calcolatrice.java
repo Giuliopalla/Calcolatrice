@@ -24,4 +24,9 @@ public class Calcolatrice {
     public double divisione(int x, int y){
         return x/y;
     }
+
+    public int moltiper10(int x)
+    {
+        return x*10;
+    }
 }
