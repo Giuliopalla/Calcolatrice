@@ -35,4 +35,10 @@ public class CalcolatriceTest {
 
         assertTrue("divisione corretta",calcolatrice.divisione(6,2)==3.0);
     }
+
+    public void testMoltiplicazioneper10(){
+
+        assertTrue("moltiplicazione corretta",calcolatrice.moltiper10(3)==30);
+    }
+
 }
